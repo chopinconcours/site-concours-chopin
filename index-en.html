@@ -41,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
             <li class="nav-item"><a class="nav-link" href="index-en.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="presations-en.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="prestations-en.html">Association</a></li>
             <li class="nav-item"><a class="nav-link" href="calendrier-en.html">Schedule</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInfos" role="button"
@@ -147,7 +147,7 @@
 
           const title = document.createElement("h3");
           title.className = "text-center my-4";
-          title.textContent = date;
+          title.textContent = `Concert du ${date}`;
           galerie.appendChild(title);
 
           const galleryContainer = document.createElement("div");
@@ -157,7 +157,7 @@
 
           files.forEach(file => {
             const ext = file.split('.').pop().toLowerCase();
-            const isVideo = ['mp4', 'webm', 'ogg', 'mov'].includes(ext);
+            const isVideo = ['mp4', 'webm', 'ogg'].includes(ext);
             const fullPath = `assets/img/portfolio/en/${date}/${file}`;
 
             const wrapper = document.createElement("div");
