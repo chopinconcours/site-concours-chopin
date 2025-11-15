@@ -2,7 +2,7 @@ import os, json, time
 
 BASE = r"assets/img/portfolio/en"   # <-- ton dossier racine
 
-MEDIA_EXTS = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.mp4', '.webm', '.ogg')
+MEDIA_EXTS = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.mp4', '.webm', '.ogg', '.mov')
 
 def folder_timestamp(path: str) -> float:
     """Renvoie un timestamp pour trier le dossier.

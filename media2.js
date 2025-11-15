@@ -1,3 +1,3 @@
-// auto-généré: 2025-08-17 11:51:41
-const mediaGalleries = {"May 12 2025, final of the Chopin competition at EPFL, Lausanne": ["2.mp4", "3.jpg", "4.jpg", "6.jpg", "5.jpg", "1.jpg"], "April 24 2025, concert at the Méthodiste Church, Lausanne": ["1.jpg", "2.jpg"]};
-const mediaOrder = ["May 12 2025, final of the Chopin competition at EPFL, Lausanne", "April 24 2025, concert at the Méthodiste Church, Lausanne"];
+// auto-généré: 2025-11-15 12:44:15
+const mediaGalleries = {"Giving prices at the Lavaux Classic, November 8 2025": ["Suter.mp4", "November 8, anouncement.mp4"], "Masterclass Vincent Coq, September 22 2025 ": ["Septembre 22 Masterclass Coq.png"], "String Quartet concert (HEMU), November 27 2025": ["concert instagram.png"], "Final of the Chopin competition at EPFL, Lausanne, May 12 2025": ["bouquets 4.png", "Louis + JURY 2.png", "6.jpg", "5.jpg", "4.jpg", "3.jpg", "2.mp4", "1.jpg"], "Epicea Edelweiss, concert at the Méthodiste Church, Lausanne, April 24 2025": ["2.jpg", "1.jpg"]};
+const mediaOrder = ["Giving prices at the Lavaux Classic, November 8 2025", "Masterclass Vincent Coq, September 22 2025 ", "String Quartet concert (HEMU), November 27 2025", "Final of the Chopin competition at EPFL, Lausanne, May 12 2025", "Epicea Edelweiss, concert at the Méthodiste Church, Lausanne, April 24 2025"];
