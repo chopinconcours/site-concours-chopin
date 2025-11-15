@@ -1,3 +1,3 @@
-// auto-généré: 2025-08-17 11:51:38
-const mediaGalleries = {"12 mai 2025, finale du concours Chopin à l'EPFL, Lausanne": ["2.mp4", "3.jpg", "4.jpg", "6.jpg", "5.jpg", "1.jpg"], "24 avril 2025, concert à l'Eglise Méthodiste, Lausanne": ["1.jpg", "2.jpg"]};
-const mediaOrder = ["12 mai 2025, finale du concours Chopin à l'EPFL, Lausanne", "24 avril 2025, concert à l'Eglise Méthodiste, Lausanne"];
+// auto-généré: 2025-11-15 12:44:18
+const mediaGalleries = {"8 novembre 2025, finale Lavaux Classic. ": ["Suter.mp4", "November 8, anouncement.mp4"], "22 septembre 2025, Masterclass Vincent Coq": ["Septembre 22 Masterclass Coq.png"], "27 Novembre 2025, Concert Quatuor à Cordes": ["concert instagram.png"], "24 avril 2025, concert à l'Eglise Méthodiste, Lausanne": ["2.jpg", "1.jpg"], "12 mai 2025, finale du concours Chopin à l'EPFL, Lausanne": ["6.jpg", "5.jpg", "4.jpg", "3.jpg", "2.mp4", "1.jpg"]};
+const mediaOrder = ["8 novembre 2025, finale Lavaux Classic. ", "22 septembre 2025, Masterclass Vincent Coq", "27 Novembre 2025, Concert Quatuor à Cordes", "24 avril 2025, concert à l'Eglise Méthodiste, Lausanne", "12 mai 2025, finale du concours Chopin à l'EPFL, Lausanne"];

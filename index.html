@@ -139,7 +139,7 @@
 
         const title = document.createElement("h3");
         title.className = "text-center my-4";
-        title.textContent = `Concert du ${date}`;
+        title.textContent = date;
         galerie.appendChild(title);
 
         const galleryContainer = document.createElement("div");
@@ -149,7 +149,7 @@
 
         files.forEach(file => {
           const ext = file.split('.').pop().toLowerCase();
-          const isVideo = ['mp4', 'webm', 'ogg'].includes(ext);
+          const isVideo = ['mp4', 'webm', 'ogg', 'mov'].includes(ext);
           const fullPath = `assets/img/portfolio/fr/${date}/${file}`;
 
           const wrapper = document.createElement("div");
