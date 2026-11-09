@@ -1,4 +1,6 @@
-import os, json, time
+import os, json, time, unicodedata
+
+nfc = lambda s: unicodedata.normalize("NFC", s)
 
 BASE = r"assets/img/portfolio/en"   # <-- ton dossier racine
 
@@ -27,7 +29,7 @@ def folder_timestamp(path: str) -> float:
         return 0.0
 
 def list_media_sorted(folder: str):
-    """Liste des fichiers médias triés du plus récent au plus ancien (mtime)."""
+    """Liste des fichiers médias triés par nom."""
     items = []
     for name in os.listdir(folder):
         if not name.lower().endswith(MEDIA_EXTS):
@@ -38,8 +40,8 @@ def list_media_sorted(folder: str):
                 items.append((name, os.path.getmtime(full)))
             except OSError:
                 pass
-    # tri descendant (plus récent d'abord)
-    items.sort(key=lambda x: x[1], reverse=True)
+    # tri par nom de fichier (01.jpg, 02.jpg, ...)
+    items.sort(key=lambda x: x[0].lower())
     return [name for name, _ in items]
 
 def main():
@@ -52,6 +54,13 @@ def main():
             folders.append((sub, full, ts))
     # trier dossiers: plus récent -> plus ancien
     folders.sort(key=lambda x: x[2], reverse=True)
+    # ordre manuel: les dossiers listés dans _order.txt (un par ligne) passent en premier, dans cet ordre
+    order_file = os.path.join(BASE, "_order.txt")
+    if os.path.exists(order_file):
+        with open(order_file, encoding="utf-8") as fh:
+            wanted = [nfc(l.rstrip("\n")) for l in fh if l.strip()]
+        rank = {name: i for i, name in enumerate(wanted)}
+        folders.sort(key=lambda x: rank.get(nfc(x[0]), len(wanted)))
 
     media = {}
     order = []

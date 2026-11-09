@@ -11332,3 +11332,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (max-width: 576px) {
   .footer-logo { height: 44px; } /* slightly smaller on phones */
 }
+/* --- Site additions (2026) --- */
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link { white-space: nowrap; }
+}
+@media (min-width: 992px) and (max-width: 1299.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link { font-size: 0.75rem; letter-spacing: 0.02em; padding-left: 0.4rem; padding-right: 0.4rem; }
+  #mainNav .navbar-brand img { height: 56px !important; }
+}
