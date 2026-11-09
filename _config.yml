@@ -1,0 +1,7 @@
+# GitHub Pages (Jekyll) settings: these files stay in the repository but are not published on the site.
+exclude:
+  - docs
+  - tools
+  - README.md
+  - generate_galleries_fr.py
+  - generate_galleries_en.py
