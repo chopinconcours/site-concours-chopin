@@ -21,13 +21,13 @@ LINKEDIN = "https://www.linkedin.com/company/concours-chopin-epfl-unil/"
 # French file -> (French description, English description). English file = same name with -en.
 DESCRIPTIONS = {
     "index.html": (
-        "Concours de piano Chopin pour les étudiant·e·s et alumni de l'UNIL/EPFL, de l'UZH/ETH et de l'UNIGE : inscriptions 2026-2027, concerts, photos et partenaires.",
+        "Concours de piano Chopin pour les étudiants et alumni de l'UNIL/EPFL, de l'UZH/ETH et de l'UNIGE : inscriptions 2026-2027, concerts, photos et partenaires.",
         "Chopin piano competition for students and alumni of UNIL/EPFL, UZH/ETH and UNIGE: 2026-2027 registration, concerts, photos and partners."),
     "concours-2026-2027.html": (
         "Concours Chopin Étudiant 2026-2027 : règlement, dates (inscription jusqu'au 30 novembre 2026, Grande Finale le 24 mai 2027 à Lausanne) et inscription.",
         "Student Chopin Competition 2026-2027: rules, dates (registration until 30 November 2026, Grand Final on 24 May 2027 in Lausanne) and registration."),
     "alumni.html": (
-        "Édition Alumni 2027 du Concours Chopin pour les ancien·ne·s de l'UNIL/EPFL, de l'UZH/ETH et de l'UNIGE : règlement, vidéo avant le 30 septembre 2027.",
+        "Édition Alumni 2027 du Concours Chopin pour les anciens de l'UNIL/EPFL, de l'UZH/ETH et de l'UNIGE : règlement, vidéo avant le 30 septembre 2027.",
         "Chopin Competition Alumni Edition 2027 for alumni of UNIL/EPFL, UZH/ETH and UNIGE: rules, video by 30 September 2027, registration."),
     "prestations.html": (
         "L'association Concours Chopin Étudiant EPFL-UNIL : mission, résultats de l'édition 2025, concerts gratuits sur les campus et partenariats.",
